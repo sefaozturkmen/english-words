@@ -29,7 +29,7 @@ export default function Home() {
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="flex gap-2">
+          <div className="flex flex-col gap-2">
             <Button
               onClick={() => setFlip(!flip)}
               className="w-full text-lg py-6 hover:scale-105 transition-transform"
